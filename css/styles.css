@@ -499,10 +499,24 @@ section {
 
 .footer-contact a {
     color: rgba(255, 255, 255, 0.9);
+    transition: var(--transition);
 }
 
 .footer-contact a:hover {
     color: var(--accent-coral);
+}
+
+.linkedin-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.linkedin-link svg {
+    transition: var(--transition);
+}
+
+.linkedin-link:hover svg {
+    transform: translateY(-2px);
 }
 
 .footer-bottom {
